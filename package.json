@@ -1,0 +1,45 @@
+{
+  "name": "socketio-jwt",
+  "version": "4.5.0",
+  "description": "authenticate socket.io connections using JWTs",
+  "main": "lib/index.js",
+  "types": "./types/index.d.ts",
+  "keywords": [
+    "socket",
+    "socket.io",
+    "jwt"
+  ],
+  "author": {
+    "name": "José F. Romaniello",
+    "email": "jfromaniello@gmail.com",
+    "url": "http://joseoncode.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/auth0/socketio-jwt.git"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "jsonwebtoken": "^8.3.0",
+    "xtend": "~2.1.2"
+  },
+  "devDependencies": {
+    "@types/socket.io": "~1.4.29",
+    "body-parser": "~1.17.1",
+    "express": "~4.15.2",
+    "mocha": "~3.2.0",
+    "request": "~2.81.0",
+    "serve-static": "^1.13.2",
+    "q": "^1.5.1",
+    "server-destroy": "~1.0.1",
+    "should": "~11.2.1",
+    "socket.io": "^1.7.3",
+    "socket.io-client": "^1.7.3"
+  },
+  "_resolved": "",
+  "_integrity": "",
+  "_from": "socketio-jwt@git+https://github.com/auth0-community/auth0-socketio-jwt.git#16fefb61bc71de397bfca913caa31379928035cc"
+}
